@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+  text-align: left;
+}
+
+/*congrats*/
+.congrats {
+  text-transform: uppercase;
+  font-size: 64px;
+  line-height: 62px;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 70px;
+  padding-top: 100px;
+}
+
+#background {
+  position: absolute;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+#foreground{ z-index: 99; }
+
+#intro_header {
+  width: 1919px;
+  height: 480px;
+}
+
+#entry-info{
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 150px;
+}
+
+#profile_message{
+  float: left;
+  padding-left: 50px;
+  padding-top: 37px;
+  height: 415px;
+  width: 625px;
+}
+
+#profile_message p {
+  margin-right:185px;
+  text-align: justify;
+  font-size: 22px;
+}
+
+#profile_info{
+  padding-top: 40px;
+  float:right;
+}
+
+.profile_card {
+  float: left;
+}
+
+/* first row*/
+.goal_card { width: 275px; height: 230px; }
+.weight_card { width: 270px; height: 230px; }
+.restrictions_card { width: 305px; height: 230px; }
+.habits_card { width: 375px; height: 230px; }
+
+/* second row*/
+.sleep_card { width: 275; height: 185px; }
+.fitness_card { width: 270; height: 185px; }
+.day_card { width: 305; height: 185px; }
+.protein_card { width: 375; height: 185px; }
+
+
+/* first row contents */
+.goal_card .text { padding: 80px 20px 0 105px; }
+.weight_card .text { padding: 80px 20px 0 105px; }
+.restrictions_card .text { padding: 80px 20px 0 105px; }
+.habits_card .text { padding: 80px 20px 0 105px; }
+
+/* second row contents*/
+.sleep_card .text { padding: 80px 20px 0 105px; }
+.fitness_card .text { padding: 80px 20px 0 105px; }
+.day_card .text { padding: 80px 20px 0 105px; }
+.protein_card .text { padding: 80px 20px 0 105px; }
+
+/*
+.profile_card .text {
+  border: 1px solid #cccccc;
+}*/
+
+.profile_card p {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+#copyright {
+  width: 800px;
+  margin-top: 200px;
+  margin-left: 60px;
+  padding-top: 150px;
+}
+
+#copyright p, #copyright a, #copyright a:visited {
+  text-align: justify;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+
+.book-title, .entry-info {
+ text-transform: uppercase;
+}
+
+
+/* .goal_card{ height: 170px; background-color: red; } */
+/* .weight_card{ height: 170px; background-color: red; } */
+/* .restrictions_card{ height: 170px; background-color: red; } */
+/* .habits_card{ height: 170px; background-color: red; } */
+
+/* .sleep_card{ height: 150px; background-color: yellow; } */
+/* .fitness_card{ height: 150px; background-color: yellow; } */
+/* .day_card{ height: 150px; background-color: yellow; } */
+/* .protein_card{ height: 150px; background-color: yellow; } */
+
+/*title form pages*/
+.profile_label {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/*answers*/
+.profile_value {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}

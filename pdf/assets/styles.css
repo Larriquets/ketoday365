@@ -1,0 +1,372 @@
+#intro-1 body {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+  text-align: left;
+}
+
+/*congrats*/
+.congrats {
+  text-transform: uppercase;
+  font-size: 64px;
+  line-height: 62px;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 70px;
+  padding-top: 100px;
+}
+
+#background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+#foreground {
+  z-index: 99;
+}
+
+#intro_header {
+  width: 1919px;
+  height: 480px;
+}
+
+#entry-info {
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 150px;
+}
+
+#profile_message {
+  float: left;
+  padding-left: 50px;
+  padding-top: 37px;
+  height: 415px;
+  width: 625px;
+}
+
+#profile_message p {
+  margin-right: 185px;
+  text-align: justify;
+  font-size: 22px;
+}
+
+#profile_info {
+  padding-top: 40px;
+  float: right;
+}
+
+.profile_card {
+  float: left;
+}
+
+/* first row*/
+.goal_card {
+  width: 275px;
+  height: 230px;
+}
+
+.weight_card {
+  width: 270px;
+  height: 230px;
+}
+
+.restrictions_card {
+  width: 305px;
+  height: 230px;
+}
+
+.habits_card {
+  width: 375px;
+  height: 230px;
+}
+
+/* second row*/
+.sleep_card {
+  width: 275;
+  height: 185px;
+}
+
+.fitness_card {
+  width: 270;
+  height: 185px;
+}
+
+.day_card {
+  width: 305;
+  height: 185px;
+}
+
+.protein_card {
+  width: 375;
+  height: 185px;
+}
+
+
+/* first row contents */
+.goal_card .text {
+  padding: 80px 20px 0 105px;
+}
+
+.weight_card .text {
+  padding: 80px 20px 0 105px;
+}
+
+.restrictions_card .text {
+  padding: 80px 20px 0 105px;
+}
+
+.habits_card .text {
+  padding: 80px 20px 0 105px;
+}
+
+/* second row contents*/
+.sleep_card .text {
+  padding: 80px 20px 0 105px;
+}
+
+.fitness_card .text {
+  padding: 80px 20px 0 105px;
+}
+
+.day_card .text {
+  padding: 80px 20px 0 105px;
+}
+
+.protein_card .text {
+  padding: 80px 20px 0 105px;
+}
+
+/*
+.profile_card .text {
+border: 1px solid #cccccc;
+}*/
+
+.profile_card p {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+#copyright {
+  width: 800px;
+  margin-top: 200px;
+  margin-left: 60px;
+  padding-top: 150px;
+}
+
+#copyright p,
+#copyright a,
+#copyright a:visited {
+  text-align: justify;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+
+.book-title,
+.entry-info {
+  text-transform: uppercase;
+}
+
+
+/* .goal_card{ height: 170px; background-color: red; } */
+/* .weight_card{ height: 170px; background-color: red; } */
+/* .restrictions_card{ height: 170px; background-color: red; } */
+/* .habits_card{ height: 170px; background-color: red; } */
+
+/* .sleep_card{ height: 150px; background-color: yellow; } */
+/* .fitness_card{ height: 150px; background-color: yellow; } */
+/* .day_card{ height: 150px; background-color: yellow; } */
+/* .protein_card{ height: 150px; background-color: yellow; } */
+
+/*title form pages*/
+.profile_label {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-transform: uppercase;
+}
+
+/*answers*/
+.profile_value {
+  color: #000;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.profile_value_pink {
+  color: #ff4a7e;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+
+
+
+* {
+  /* margin: 0;
+padding: 0;
+box-sizing: border-box; */
+  font-family: 'Lato', sans-serif;
+}
+
+#intro-2 {
+  width: 1919px;
+}
+
+/*
+#intro-2 #main {
+display: flex;
+flex-flow: row nowrap;
+justify-content: center;
+align-items: flex-start;
+} */
+
+#left,
+#right {
+  float: left;
+  width: 959px;
+  height: 800px;
+}
+
+.hide {
+  display: none !important;
+}
+
+#man {
+  background-image: url('https://www.healthyfitplan.com/wp-content/uploads/imgMen.png');
+}
+
+#woman {
+  background-image: url('https://www.healthyfitplan.com/wp-content/uploads/imgWoman.png');
+}
+
+.title-container {
+  background-size: cover;
+  width: 959px;
+  height: 300px;
+  padding: 20px 100px;
+  z-index: 99;
+}
+
+.title-container h1 {
+  /* padding: 60px; */
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.title-container h1 span {
+  font-weight: bold;
+}
+
+#welcome {
+  padding: 60px 100px;
+  background-color: #F4F4F4;
+  height: 500px;
+}
+
+#welcome p {
+  font-size: 30px;
+  margin: 30px 0;
+  line-height: 45px;
+}
+
+#welcome strong {
+  font-weight: bold;
+}
+
+#welcome span {
+  color: #FF4A7E;
+  font-weight: bold;
+}
+
+#right {
+  /* padding: 100px 100px 0 100px; */
+  text-align: center;
+  /* height: 100%; */
+}
+
+#right h2 {
+  padding: 60px 0 0 0;
+  font-size: 50px;
+  font-weight: bold;
+  color: #1667a3;
+}
+
+#table {
+  width: 959px;
+  height: 150px;
+  text-align: center;
+  padding: 0 270px;
+  margin-top: 50px;
+}
+
+#table div {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 0 25px;
+  text-align: center;
+}
+
+#table h3 {
+  color: #1667a3;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+#table p {
+  width: 100px;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #E5F5FF;
+  color: #8F92A1;
+  padding: 8px;
+}
+
+.icons {
+  width: 959px;
+  height: 200px;
+  padding: 0 200px;
+}
+
+.icons img {
+  width: 100px;
+}
+
+.icons div {
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding: 0 40px;
+  border-right: #F3F3F3 solid 2px;
+}
+
+.no-border {
+  border: none !important;
+}
+
+.icons p {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#mobile {
+  text-align: center;
+  width: 450px;
+}
+
